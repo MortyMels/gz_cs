@@ -8,24 +8,30 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\shalimovda\\.nuget\\packages\\": {}
+    "C:\\Users\\Morty\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shalimovda\\Documents\\CSharp\\dz1-1\\dz1-1.csproj",
+      "projectUniqueName": "C:\\Users\\Morty\\OneDrive\\Документы\\githab\\gz_cs\\dz1-1.csproj",
       "projectName": "dz1-1",
-      "projectPath": "C:\\Users\\shalimovda\\Documents\\CSharp\\dz1-1\\dz1-1.csproj",
-      "packagesPath": "C:\\Users\\shalimovda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shalimovda\\Documents\\CSharp\\dz1-1\\obj\\",
+      "projectPath": "C:\\Users\\Morty\\OneDrive\\Документы\\githab\\gz_cs\\dz1-1.csproj",
+      "packagesPath": "C:\\Users\\Morty\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Morty\\OneDrive\\Документы\\githab\\gz_cs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\shalimovda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Morty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
