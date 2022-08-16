@@ -57,13 +57,13 @@ num=q;
 int n = Convert.ToInt32(Math.Ceiling(Math.Log10(Convert.ToDouble(num)))); //Количество цифр в числе
 Console.WriteLine($"{num}");
 
-//Определяем четность
+//Определяем четность dz1
 if (num%2!=0) {
     Console.Write("не ");
 }
 Console.WriteLine("четное число");
 
-//Показываем все четные числа
+//Показываем все четные числа dz1
 Console.Write($"Все четные числа в промежутке от 1 до {num}: ");
 for (int i = 2; i <= num; i+=2)
 {
@@ -74,7 +74,7 @@ for (int i = 2; i <= num; i+=2)
 }
 Console.WriteLine();
 
-//Показываем все квадраты числа от 1 до m
+//Показываем все квадраты числа от 1 до m dz3
 Console.Write($"Все квадраты числа в промежутке от 1 до {num}: ");
 for (int i = 1; i <= num; i++)
 {
@@ -85,13 +85,13 @@ for (int i = 1; i <= num; i++)
 }
 Console.WriteLine();
 
-//Разбиваем на разряды
+//Разбиваем на разряды dz2
 Console.WriteLine($"Разбитие числа {num} по разрядам: ");
 for (int i = 1;i<= n;i++) {
     Console.WriteLine($"{i}: {num/((int)Math.Pow(10,i-1))%10}");
 }
 
-//Разбиваем на разряды
+//Сумма цифр числа dz2
 int s = 0;
 for (int i = 1;i<= n;i++) {
     s+=num/((int)Math.Pow(10,i-1))%10;
@@ -99,7 +99,7 @@ for (int i = 1;i<= n;i++) {
 Console.WriteLine($"Сумма цифр числа {num}: {s}");
 
 
-//выводим день Рабойчий ли это день недели от 01.01.2018
+//выводим день Рабойчий ли это день недели от 01.01.2018 dz2
 Console.Write($"{num} день от 01.01.2018: ");
 if(((num-1)%7)/5<=5) {
     Console.WriteLine("будний");
@@ -107,7 +107,7 @@ if(((num-1)%7)/5<=5) {
     Console.WriteLine("выходной");
 }
 
-//Палиндром ли?
+//Палиндром ли? dz3
 bool p = true;
 for (int i = 1;i<=n/2&p;i++) {
     if(num/((int)Math.Pow(10,i-1))%10!=num/((int)Math.Pow(10,n-i))%10){
